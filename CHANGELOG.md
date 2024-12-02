@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.3](https://github.com/RandomEngineers/eslint-plugin-random-engineers/compare/v0.1.2...v0.1.3) (2024-12-02)
+
+
+### Bug Fixes
+
+* ci error ([#11](https://github.com/RandomEngineers/eslint-plugin-random-engineers/issues/11)) ([cc4c04e](https://github.com/RandomEngineers/eslint-plugin-random-engineers/commit/cc4c04eb6d72e8ece076a4b7f4b0eb98a2ef88ef))
+* deps installation and caching for ci ([#9](https://github.com/RandomEngineers/eslint-plugin-random-engineers/issues/9)) ([b459d75](https://github.com/RandomEngineers/eslint-plugin-random-engineers/commit/b459d75b3c854c44bca8b1d86eb57d6138592d17))
+
 ## [0.1.2](https://github.com/RandomEngineers/eslint-plugin-random-engineers/compare/v0.1.1...v0.1.2) (2024-12-02)
 
 
