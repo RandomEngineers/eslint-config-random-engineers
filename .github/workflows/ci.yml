@@ -30,7 +30,7 @@ jobs:
           path: ~/.bun/install/cache
           key: ${{ hashFiles('bun.lockb') }}
       - name: 🔧 Install bun
-        uses: oven-sh/setup-bun@v1
+        uses: oven-sh/setup-bun@v2
       - name: ⏳ Installing dependencies
         run: bun install
       - name: 🪞 Ensure codes well formatted
