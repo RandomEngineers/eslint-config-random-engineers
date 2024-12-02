@@ -1,0 +1,39 @@
+---
+name: JavaScript CI
+on:
+  pull_request:
+    types:
+      - opened
+      - ready_for_review
+      - reopened
+      - synchronize
+  push:
+    branches:
+      - main
+permissions:
+  contents: read
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    if: ${{ !github.event.pull_request.draft }}
+    steps:
+      - name: 📤 Checkout repository
+        uses: actions/checkout@v4
+      - name: 🔧 Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: "https://registry.npmjs.org"
+      - name: 📦 Load cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/cache
+          key: ${{ hashFiles('bun.lockb') }}
+      - name: 🔧 Install bun
+        uses: oven-sh/setup-bun@v1
+      - name: ⏳ Installing dependencies
+        run: bun install
+      - name: 🪞 Ensure codes well formatted
+        run: bun run format:ci
+      - name: 🕵🏻 Lint
+        run: bun run lint:ci
