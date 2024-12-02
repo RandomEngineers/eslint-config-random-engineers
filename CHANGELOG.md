@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/RandomEngineers/eslint-plugin-random-engineers/compare/v0.1.3...v0.1.4) (2024-12-02)
+
+
+### Bug Fixes
+
+* bun publish ([#12](https://github.com/RandomEngineers/eslint-plugin-random-engineers/issues/12)) ([58c4fa1](https://github.com/RandomEngineers/eslint-plugin-random-engineers/commit/58c4fa1ecb9685f74086c0567462121d6db89e97))
+
 ## [0.1.3](https://github.com/RandomEngineers/eslint-plugin-random-engineers/compare/v0.1.2...v0.1.3) (2024-12-02)
 
 
