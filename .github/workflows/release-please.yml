@@ -24,7 +24,7 @@ jobs:
         run: npm ci
         if: ${{ steps.release.outputs.release_created }}
       - name: 📤 Publish package
-        run: bun publish
+        run: bun publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         if: ${{ steps.release.outputs.release_created }}
