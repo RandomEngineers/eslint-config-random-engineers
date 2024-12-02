@@ -24,7 +24,7 @@ jobs:
           registry-url: "https://registry.npmjs.org"
         if: ${{ steps.release.outputs.release_created }}
       - name: ⏳ Installing dependencies
-        run: npm ci
+        run: bun install
         if: ${{ steps.release.outputs.release_created }}
       - name: 📤 Publish package
         run: bun publish --access public
