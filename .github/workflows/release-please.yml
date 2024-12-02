@@ -23,6 +23,13 @@ jobs:
           node-version: 20
           registry-url: "https://registry.npmjs.org"
         if: ${{ steps.release.outputs.release_created }}
+      - name: 📦 Load cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/cache
+          key: ${{ hashFiles('bun.lockb') }}
+      - name: 🔧 Install bun
+        uses: oven-sh/setup-bun@v2
       - name: ⏳ Installing dependencies
         run: bun install
         if: ${{ steps.release.outputs.release_created }}
