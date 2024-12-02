@@ -28,8 +28,10 @@ jobs:
         with:
           path: ~/.bun/install/cache
           key: ${{ hashFiles('bun.lockb') }}
+        if: ${{ steps.release.outputs.release_created }}
       - name: 🔧 Install bun
         uses: oven-sh/setup-bun@v2
+        if: ${{ steps.release.outputs.release_created }}
       - name: ⏳ Installing dependencies
         run: bun install
         if: ${{ steps.release.outputs.release_created }}
