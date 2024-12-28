@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.5](https://github.com/RandomEngineers/eslint-config-random-engineers/compare/v0.1.4...v0.1.5) (2024-12-28)
+
+
+### Bug Fixes
+
+* import structure ([#17](https://github.com/RandomEngineers/eslint-config-random-engineers/issues/17)) ([9d78727](https://github.com/RandomEngineers/eslint-config-random-engineers/commit/9d787276611e7ff1a90117e1e3dbbe03c1b842bb))
+
 ## [0.1.4](https://github.com/RandomEngineers/eslint-plugin-random-engineers/compare/v0.1.3...v0.1.4) (2024-12-02)
 
 
