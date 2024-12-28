@@ -3,6 +3,7 @@
   "description": "Common ESLint rules.",
   "version": "0.1.4",
   "type": "module",
+  "main": "lib/index.mjs",
   "scripts": {
     "format": "prettier --write .",
     "format:ci": "prettier .",
