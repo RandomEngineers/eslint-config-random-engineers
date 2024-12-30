@@ -9,7 +9,7 @@
     "format:ci": "prettier --check .",
     "lint": "eslint --fix .",
     "lint:ci": "eslint .",
-    "prepare": "husky"
+    "postinstall": "husky"
   },
   "repository": {
     "type": "git",
