@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/RandomEngineers/eslint-config-random-engineers/compare/v0.1.5...v0.2.0) (2024-12-30)
+
+
+### Features
+
+* add jsdoc linter ([#19](https://github.com/RandomEngineers/eslint-config-random-engineers/issues/19)) ([27d7588](https://github.com/RandomEngineers/eslint-config-random-engineers/commit/27d7588322a7593716360167503359f7aea317b2))
+
 ## [0.1.5](https://github.com/RandomEngineers/eslint-config-random-engineers/compare/v0.1.4...v0.1.5) (2024-12-28)
 
 
