@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/RandomEngineers/eslint-config-random-engineers/compare/v0.2.0...v0.2.1) (2024-12-30)
+
+
+### Bug Fixes
+
+* publish failing due to husky ([#21](https://github.com/RandomEngineers/eslint-config-random-engineers/issues/21)) ([b77858b](https://github.com/RandomEngineers/eslint-config-random-engineers/commit/b77858b8d4db0a0cd7914b3ec1aa33166ce30044))
+
 ## [0.2.0](https://github.com/RandomEngineers/eslint-config-random-engineers/compare/v0.1.5...v0.2.0) (2024-12-30)
 
 
