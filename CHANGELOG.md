@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/RandomEngineers/eslint-config-random-engineers/compare/v0.2.1...v0.2.2) (2025-01-07)
+
+
+### Bug Fixes
+
+* eslint-plugin-github compatibility ([#26](https://github.com/RandomEngineers/eslint-config-random-engineers/issues/26)) ([2a793c0](https://github.com/RandomEngineers/eslint-config-random-engineers/commit/2a793c0d8d98d72c2a19d6db12f4209bbec67a0a))
+
 ## [0.2.1](https://github.com/RandomEngineers/eslint-config-random-engineers/compare/v0.2.0...v0.2.1) (2024-12-30)
 
 

@@ -1,7 +1,7 @@
 {
   "name": "@randomengineers/eslint-config-random-engineers",
   "description": "Common ESLint rules.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "type": "module",
   "main": "./lib/index.js",
   "exports": {
